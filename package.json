@@ -1,0 +1,17 @@
+{
+  "name": "internetstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/components/main.js",
+  "scripts": {
+    "serve": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "vue": "^3.2.47"
+  }
+}

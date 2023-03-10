@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.head-cont {
+  border-radius: 10px;
+  background: rgb(163, 158, 158);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.main-head {
+  margin: 0 15px 5px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex: 1;
+}
+
+.head-title {
+  font-family: 'Rubik Iso', cursive;
+  padding-left: 15px;
+  font-size: 29px;;
+}
+
+.head-mid {
+  margin-left: -104px;
+}
+
+.form {
+  position: relative;
+}
+
+.search-input {
+  width: 300px;
+  padding: 3px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: 2px solid #746b6b;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-icon {
+  background: transparent;
+  border: none;
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  cursor: pointer;
+  color: #746b6b;
+}
+
+.btn-card {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'Rubik Iso', cursive;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: #d1c3af;
+  padding: 15px;
+  border-radius: 50%;
+  color: #211e0f;
+  outline: dashed #ded0d0;
+}
+
+.btn-card:hover {
+  background-color: peachpuff;
+  outline: 1px solid #777;
+}
+
+.basket-products {
+  background: white;
+  z-index: 1;
+  top: 76px;
+  right: 173px;
+  min-width: 300px;
+  min-height: 62px;
+  position: absolute;
+  box-shadow: 0.1em 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+}
+
+.basket-products::before {
+  content: "";
+  position: absolute;
+  right: 33px;
+  top: -25px;
+  border: 10px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  width: 1px;
+}
+
+.text-cart {
+  font-size: larger;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bolder;
+  color: red;
+  font-style: italic;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.goods-list {
+  display: contents;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  box-shadow: 0.1em 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+}
+
+.img-goods {
+  border-radius: 10px 10px 0 0;
+}
+
+.wrap-price {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-top: 0.5px solid grey;
+}
+
+.product-price {
+  padding-bottom: 10px;
+}
+
+.span-price {
+  padding-left: 1px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.btn-add {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Rubik Iso', cursive;
+  border-radius: 0px 0px 10px 10px;
+  cursor: pointer;
+  padding: 11px;
+  border: none;
+  background: #d1c3af;
+}
+
+.btn-add:hover {
+  border: none;
+  background: peachpuff;
+}
+
+.merch-item {
+  margin: 0 20px 5px;
+  border-bottom: 0.5px solid #000000;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  padding: 20px 0;
+}
+
+.merch-product {
+  margin-left: -12px;
+  width: 90px;
+  height: 65px;
+}
+
+.merch-price {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.price-per-piece {
+  font-size: 12px;
+}
+
+.merch-right-block {
+  text-align: end;
+}
+
+.wrap-del-btn {
+  padding: 10px 5px 0 0;
+}
+
+.del-btn {
+  border: none;
+  background: transparent;
+  padding-top: 16px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 16px;
+}
+
+.del-btn:hover {
+  color: #000000;
+  background-color: white;
+  cursor: pointer;
+} /*# sourceMappingURL=style.css.map */
+
+.text-error {
+  font-size: 99px;
+  color: red;
+}
+
+.syntax {
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer {
+  padding: 13.5px 30px 13.5px;
+  background: rgb(163, 158, 158);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-vue {
+  font-family: sans-serif;
+  margin-left: -10px;
+  font-weight: lighter;
+}
+
+.footer-link {
+  font-size: 19px;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Rubik Iso', cursive;
+}

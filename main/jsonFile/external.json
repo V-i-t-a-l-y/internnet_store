@@ -1,0 +1,34 @@
+{
+  "amount": 51200,
+  "countGoods": 4,
+  "contents": [
+    {
+      "id_product": 124,
+      "product_name": "Keyboard",
+      "price": 1600,
+      "image": "image/keyboard.jpeg",
+      "quantity": 1
+    },
+    {
+      "id_product": 457,
+      "product_name": "IPad Pro",
+      "price": 3000,
+      "image": "image/iPad.jpeg",
+      "quantity": 1
+    },
+    {
+      "id_product": 123,
+      "price": 45600,
+      "product_name": "IMac",
+      "image": "image/iMac.jpeg",
+      "quantity": 1
+    },
+    {
+      "id_product": 456,
+      "price": 1000,
+      "product_name": "Mouse",
+      "image": "image/mouse.jpeg",
+      "quantity": 1
+    }
+  ]
+}

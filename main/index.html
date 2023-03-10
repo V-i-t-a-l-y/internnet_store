@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/6d9ef40d2f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d9ef40d2f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Market</title>
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <header class="head-cont">
+            <div class="head-left">
+                <div class="head-title">Video Market</div>
+            </div>
+            <filter_product></filter_product>
+            <cart_list ref="basket"></cart_list>
+        </header>
+        <product_list ref="goods"></product_list>
+        <footer class="footer">
+            <div class="footer-left">
+                <i class="fab fa-vuejs fa-3x fa-beat"></i><span class="logo-vue">vue.js</span>
+            </div>
+            <div class="footer-right">
+                <a class="footer-link"
+                   href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80"
+                   target="_blank">
+                    About Us</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+<script src="components/mainPage.js"></script>
+<script src="components/basket.js"></script>
+<script src="components/filterProduct.js"></script>
+<script src="components/main.js"></script>
+</body>
+</html>
